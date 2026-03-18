@@ -1,20 +1,30 @@
-# Cloud Learning
+# Cloud Engineering Learning
 
-This repository documents my learning journey in cloud computing, with a focus on AWS.
+This repository documents my practical learning journey in cloud engineering, with a focus on AWS.
 
-The goal is to combine study notes and small hands-on experiments while exploring fundamental cloud services and concepts.
+The goal is to build a solid foundation in cloud infrastructure, networking, and deployment through hands-on labs.
 
-## Contents
+## 🚀 Topics Covered
+- AWS EC2 (Virtual Machines)
+- Basic Networking (Security Groups)
+- Linux server setup
+- SSH access and key management
 
-- **notes/** – study notes about cloud concepts and AWS services  
-- **commands/** – useful CLI commands and quick references  
-- **labs/** – small hands-on experiments and learning exercises
+## 🧪 Labs
 
-## Topics explored
+### EC2 Basic Server
+- Launched an EC2 instance
+- Configured security groups (SSH + HTTP)
+- Connected via SSH
+- Installed and configured Apache web server
 
-- Cloud computing fundamentals
-- AWS core services (EC2, S3, IAM)
-- Basic cloud architecture concepts
-- Practical experiments using the AWS platform
+## 🧠 Key Concepts
+- Public vs Private IP
+- Security groups as virtual firewalls
+- SSH authentication with key pairs
 
-This repository will evolve as new topics and labs are explored.
+## 📌 Next Steps
+- IAM (users, roles, policies)
+- S3 (object storage)
+- Monitoring (CloudWatch)
+- Infrastructure as Code (Terraform)
