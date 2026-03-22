@@ -26,3 +26,16 @@ This function includes basic structured logging for:
 - Error tracking
 
 These logs can be viewed in AWS CloudWatch when deployed.
+
+## Local Test
+
+Run locally with:
+
+```bash
+python test_lambda.py
+
+
+Lambda execution started
+Received event: {"queryStringParameters": {"name": "Francisco"}}
+Generated response: {"message": "Hello Francisco from AWS Lambda!"}
+{'statusCode': 200, 'body': '{"message": "Hello Francisco from AWS Lambda!"}'}
