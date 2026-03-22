@@ -1,18 +1,17 @@
-# AWS Lambda - Hello Function
+# AWS Lambda Hello World
 
-This project demonstrates a simple AWS Lambda function written in Python.
+Simple AWS Lambda function in Python simulating a basic API endpoint.
 
-## 🚀 What it does
-- Receives an input event
-- Returns a dynamic message
+## Features
+- Handles query parameters (API Gateway style)
+- Returns structured JSON response
+- Basic error handling
 
-## 🧠 Concepts used
-- AWS Lambda
-- Event-driven architecture
-- Serverless computing
+## Example Event
 
-## 📌 Example input
 ```json
 {
-  "name": "Francisco"
+  "queryStringParameters": {
+    "name": "Francisco"
+  }
 }
