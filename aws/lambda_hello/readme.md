@@ -15,3 +15,14 @@ Simple AWS Lambda function in Python simulating a basic API endpoint.
     "name": "Francisco"
   }
 }
+
+## Logging
+
+This function includes basic structured logging for:
+
+- Lambda execution start
+- Incoming event payload
+- Generated response
+- Error tracking
+
+These logs can be viewed in AWS CloudWatch when deployed.
