@@ -1,0 +1,3 @@
+{"user":"user1","action":"click","ip":"192.168.1.10","timestamp":"2026-04-03T21:00:00Z"}
+{"user":"user2","action":"login_attempt","ip":"10.0.0.5","timestamp":"2026-04-03T21:02:00Z"}
+{"user":"user1","action":"submit_credentials","ip":"192.168.1.10","timestamp":"2026-04-03T21:03:00Z"}
